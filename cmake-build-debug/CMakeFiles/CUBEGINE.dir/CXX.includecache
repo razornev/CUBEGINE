@@ -6,6 +6,22 @@
 
 #IncludeRegexTransform: 
 
+../dependencies/GLEW/include/GL/glew.h
+stddef.h
+-
+inttypes.h
+-
+stdint.h
+-
+inttypes.h
+-
+Availability.h
+-
+OpenGL/glu.h
+-
+GL/glu.h
+-
+
 ../dependencies/glfw/include/GLFW/glfw3.h
 stddef.h
 -
@@ -52,6 +68,8 @@ GL/glu.h
 
 C:/Users/nbenc/CLionProjects/CUBEGINE/main.cpp
 iostream
+-
+GL/glew.h
 -
 GLFW/glfw3.h
 -

@@ -4,7 +4,7 @@
 # compile C with C:/MinGW/bin/gcc.exe
 C_FLAGS = -g   -Wall -std=gnu99
 
-C_DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
+C_DEFINES = -DGLEW_STATIC -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
 
 C_INCLUDES = @CMakeFiles/glfw.dir/includes_C.rsp
 

@@ -3,10 +3,22 @@ project(CUBEGINE)
 
 set(CMAKE_CXX_STANDARD 20)
 
+find_package(OpenGL)
+
+add_definitions(-DGLEW_STATIC)
+
 add_subdirectory(dependencies/glfw)
+add_subdirectory(dependencies/glew/build/cmake)
 
 add_executable(CUBEGINE main.cpp)
-find_package(OpenGL REQUIRED)
 
-target_link_libraries(CUBEGINE OpenGL::GL)
-target_link_libraries(CUBEGINE glfw)
+target_include_directories(CUBEGINE PRIVATE
+        dependencies/GLEW/include
+        )
+target_link_libraries(CUBEGINE glfw glew_s OpenGL::GL)
+
+
+
+
+
+

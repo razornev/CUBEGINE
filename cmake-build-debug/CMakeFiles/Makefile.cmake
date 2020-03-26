@@ -51,6 +51,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.15.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.15.3/CMakeRCCompiler.cmake"
   "CMakeFiles/3.15.3/CMakeSystem.cmake"
+  "../dependencies/glew/build/cmake/CMakeLists.txt"
+  "../dependencies/glew/glew.pc.in"
   "../dependencies/glfw/CMakeLists.txt"
   "../dependencies/glfw/cmake_uninstall.cmake.in"
   "../dependencies/glfw/src/CMakeLists.txt"
@@ -70,6 +72,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "dependencies/glfw/CMakeFiles/CMakeDirectoryInformation.cmake"
   "dependencies/glfw/src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "dependencies/glew/build/cmake/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -77,4 +80,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/CUBEGINE.dir/DependInfo.cmake"
   "dependencies/glfw/CMakeFiles/uninstall.dir/DependInfo.cmake"
   "dependencies/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
+  "dependencies/glew/build/cmake/CMakeFiles/glewinfo.dir/DependInfo.cmake"
+  "dependencies/glew/build/cmake/CMakeFiles/glew.dir/DependInfo.cmake"
+  "dependencies/glew/build/cmake/CMakeFiles/glew_s.dir/DependInfo.cmake"
+  "dependencies/glew/build/cmake/CMakeFiles/visualinfo.dir/DependInfo.cmake"
   )

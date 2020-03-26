@@ -19,3 +19,13 @@ C:/Users/nbenc/CLionProjects/CUBEGINE/cmake-build-debug/dependencies/glfw/src/CM
 C:/Users/nbenc/CLionProjects/CUBEGINE/cmake-build-debug/dependencies/glfw/src/CMakeFiles/edit_cache.dir
 C:/Users/nbenc/CLionProjects/CUBEGINE/cmake-build-debug/dependencies/glfw/src/CMakeFiles/list_install_components.dir
 C:/Users/nbenc/CLionProjects/CUBEGINE/cmake-build-debug/dependencies/glfw/src/CMakeFiles/install/strip.dir
+C:/Users/nbenc/CLionProjects/CUBEGINE/cmake-build-debug/dependencies/glew/build/cmake/CMakeFiles/glewinfo.dir
+C:/Users/nbenc/CLionProjects/CUBEGINE/cmake-build-debug/dependencies/glew/build/cmake/CMakeFiles/glew.dir
+C:/Users/nbenc/CLionProjects/CUBEGINE/cmake-build-debug/dependencies/glew/build/cmake/CMakeFiles/glew_s.dir
+C:/Users/nbenc/CLionProjects/CUBEGINE/cmake-build-debug/dependencies/glew/build/cmake/CMakeFiles/visualinfo.dir
+C:/Users/nbenc/CLionProjects/CUBEGINE/cmake-build-debug/dependencies/glew/build/cmake/CMakeFiles/install/local.dir
+C:/Users/nbenc/CLionProjects/CUBEGINE/cmake-build-debug/dependencies/glew/build/cmake/CMakeFiles/install.dir
+C:/Users/nbenc/CLionProjects/CUBEGINE/cmake-build-debug/dependencies/glew/build/cmake/CMakeFiles/edit_cache.dir
+C:/Users/nbenc/CLionProjects/CUBEGINE/cmake-build-debug/dependencies/glew/build/cmake/CMakeFiles/rebuild_cache.dir
+C:/Users/nbenc/CLionProjects/CUBEGINE/cmake-build-debug/dependencies/glew/build/cmake/CMakeFiles/list_install_components.dir
+C:/Users/nbenc/CLionProjects/CUBEGINE/cmake-build-debug/dependencies/glew/build/cmake/CMakeFiles/install/strip.dir

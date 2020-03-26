@@ -194,6 +194,58 @@ glfw/fast:
 	$(MAKE) -f dependencies\glfw\src\CMakeFiles\glfw.dir\build.make dependencies/glfw/src/CMakeFiles/glfw.dir/build
 .PHONY : glfw/fast
 
+#=============================================================================
+# Target rules for targets named glewinfo
+
+# Build rule for target.
+glewinfo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 glewinfo
+.PHONY : glewinfo
+
+# fast build rule for target.
+glewinfo/fast:
+	$(MAKE) -f dependencies\glew\build\cmake\CMakeFiles\glewinfo.dir\build.make dependencies/glew/build/cmake/CMakeFiles/glewinfo.dir/build
+.PHONY : glewinfo/fast
+
+#=============================================================================
+# Target rules for targets named glew
+
+# Build rule for target.
+glew: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 glew
+.PHONY : glew
+
+# fast build rule for target.
+glew/fast:
+	$(MAKE) -f dependencies\glew\build\cmake\CMakeFiles\glew.dir\build.make dependencies/glew/build/cmake/CMakeFiles/glew.dir/build
+.PHONY : glew/fast
+
+#=============================================================================
+# Target rules for targets named glew_s
+
+# Build rule for target.
+glew_s: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 glew_s
+.PHONY : glew_s
+
+# fast build rule for target.
+glew_s/fast:
+	$(MAKE) -f dependencies\glew\build\cmake\CMakeFiles\glew_s.dir\build.make dependencies/glew/build/cmake/CMakeFiles/glew_s.dir/build
+.PHONY : glew_s/fast
+
+#=============================================================================
+# Target rules for targets named visualinfo
+
+# Build rule for target.
+visualinfo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 visualinfo
+.PHONY : visualinfo
+
+# fast build rule for target.
+visualinfo/fast:
+	$(MAKE) -f dependencies\glew\build\cmake\CMakeFiles\visualinfo.dir\build.make dependencies/glew/build/cmake/CMakeFiles/visualinfo.dir/build
+.PHONY : visualinfo/fast
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -236,6 +288,10 @@ help:
 	@echo ... list_install_components
 	@echo ... uninstall
 	@echo ... glfw
+	@echo ... glewinfo
+	@echo ... glew
+	@echo ... glew_s
+	@echo ... visualinfo
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

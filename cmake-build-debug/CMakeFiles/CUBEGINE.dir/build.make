@@ -80,6 +80,7 @@ CUBEGINE_EXTERNAL_OBJECTS =
 CUBEGINE.exe: CMakeFiles/CUBEGINE.dir/main.cpp.obj
 CUBEGINE.exe: CMakeFiles/CUBEGINE.dir/build.make
 CUBEGINE.exe: dependencies/glfw/src/libglfw3.a
+CUBEGINE.exe: lib/libglew32d.a
 CUBEGINE.exe: CMakeFiles/CUBEGINE.dir/linklibs.rsp
 CUBEGINE.exe: CMakeFiles/CUBEGINE.dir/objects1.rsp
 CUBEGINE.exe: CMakeFiles/CUBEGINE.dir/link.txt

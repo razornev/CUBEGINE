@@ -5,7 +5,7 @@
 		<Option title="GLFW"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\dependencies\;CMake Files\dependencies\glfw\;CMake Files\dependencies\glfw\src\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\dependencies\;CMake Files\dependencies\glfw\;CMake Files\dependencies\glfw\src\;CMake Files\dependencies\glew\;CMake Files\dependencies\glew\build\;CMake Files\dependencies\glew\build\cmake\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="C:/Users/nbenc/CLionProjects/CUBEGINE/cmake-build-debug/dependencies/glfw"/>
@@ -38,6 +38,7 @@
 					<Add option="-D_UNICODE"/>
 					<Add option="-DUNICODE"/>
 					<Add option="-DWINVER=0x0501"/>
+					<Add option="-DGLEW_STATIC"/>
 					<Add directory="C:/Users/nbenc/CLionProjects/CUBEGINE/dependencies/glfw/include"/>
 					<Add directory="C:/Users/nbenc/CLionProjects/CUBEGINE/dependencies/glfw/src"/>
 					<Add directory="C:/Users/nbenc/CLionProjects/CUBEGINE/cmake-build-debug/dependencies/glfw/src"/>
@@ -67,6 +68,7 @@
 					<Add option="-D_UNICODE"/>
 					<Add option="-DUNICODE"/>
 					<Add option="-DWINVER=0x0501"/>
+					<Add option="-DGLEW_STATIC"/>
 					<Add directory="C:/Users/nbenc/CLionProjects/CUBEGINE/dependencies/glfw/include"/>
 					<Add directory="C:/Users/nbenc/CLionProjects/CUBEGINE/dependencies/glfw/src"/>
 					<Add directory="C:/Users/nbenc/CLionProjects/CUBEGINE/cmake-build-debug/dependencies/glfw/src"/>
@@ -181,6 +183,12 @@
 		</Unit>
 		<Unit filename="C:/Users/nbenc/CLionProjects/CUBEGINE/dependencies/glfw/src/glfw_config.h.in">
 			<Option virtualFolder="CMake Files\dependencies\glfw\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/nbenc/CLionProjects/CUBEGINE/dependencies/glew/glew.pc.in">
+			<Option virtualFolder="CMake Files\dependencies\glew\"/>
+		</Unit>
+		<Unit filename="C:/Users/nbenc/CLionProjects/CUBEGINE/dependencies/glew/build/cmake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\glew\build\cmake\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

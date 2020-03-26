@@ -17,6 +17,9 @@
 //Build shared libraries
 BUILD_SHARED_LIBS:BOOL=OFF
 
+//utilities
+BUILD_UTILS:BOOL=ON
+
 //Path to a program.
 CMAKE_AR:FILEPATH=C:/MinGW/bin/ar.exe
 
@@ -310,6 +313,30 @@ CUBEGINE_BINARY_DIR:STATIC=C:/Users/nbenc/CLionProjects/CUBEGINE/cmake-build-deb
 //Value Computed by CMake
 CUBEGINE_SOURCE_DIR:STATIC=C:/Users/nbenc/CLionProjects/CUBEGINE
 
+//The directory containing a CMake configuration file for GLEW.
+GLEW_DIR:PATH=GLEW_DIR-NOTFOUND
+
+//Path to a file.
+GLEW_INCLUDE_DIR:PATH=GLEW_INCLUDE_DIR-NOTFOUND
+
+//OSMesa mode
+GLEW_OSMESA:BOOL=OFF
+
+//Regal mode
+GLEW_REGAL:BOOL=OFF
+
+//Path to a library.
+GLEW_SHARED_LIBRARY_DEBUG:FILEPATH=GLEW_SHARED_LIBRARY_DEBUG-NOTFOUND
+
+//Path to a library.
+GLEW_SHARED_LIBRARY_RELEASE:FILEPATH=GLEW_SHARED_LIBRARY_RELEASE-NOTFOUND
+
+//Path to a library.
+GLEW_STATIC_LIBRARY_DEBUG:FILEPATH=GLEW_STATIC_LIBRARY_DEBUG-NOTFOUND
+
+//Path to a library.
+GLEW_STATIC_LIBRARY_RELEASE:FILEPATH=GLEW_STATIC_LIBRARY_RELEASE-NOTFOUND
+
 //Value Computed by CMake
 GLFW_BINARY_DIR:STATIC=C:/Users/nbenc/CLionProjects/CUBEGINE/cmake-build-debug/dependencies/glfw
 
@@ -342,6 +369,18 @@ OPENGL_glu_LIBRARY:STRING=glu32
 
 //The directory containing a CMake configuration file for glad.
 glad_DIR:PATH=glad_DIR-NOTFOUND
+
+//Value Computed by CMake
+glew_BINARY_DIR:STATIC=C:/Users/nbenc/CLionProjects/CUBEGINE/cmake-build-debug/dependencies/glew/build/cmake
+
+//Dependencies for the target
+glew_LIB_DEPENDS:STATIC=general;-nostdlib;general;opengl32;general;glu32;
+
+//Value Computed by CMake
+glew_SOURCE_DIR:STATIC=C:/Users/nbenc/CLionProjects/CUBEGINE/dependencies/glew/build/cmake
+
+//Dependencies for the target
+glew_s_LIB_DEPENDS:STATIC=general;opengl32;general;glu32;
 
 //The directory containing a CMake configuration file for glfw3.
 glfw3_DIR:PATH=glfw3_DIR-NOTFOUND
@@ -494,7 +533,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -554,6 +593,16 @@ DINPUT_H_FOUND:INTERNAL=1
 FIND_PACKAGE_MESSAGE_DETAILS_OpenGL:INTERNAL=[opengl32][c ][v()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+//ADVANCED property for variable: GLEW_INCLUDE_DIR
+GLEW_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: GLEW_SHARED_LIBRARY_DEBUG
+GLEW_SHARED_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: GLEW_SHARED_LIBRARY_RELEASE
+GLEW_SHARED_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: GLEW_STATIC_LIBRARY_DEBUG
+GLEW_STATIC_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: GLEW_STATIC_LIBRARY_RELEASE
+GLEW_STATIC_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENGL_gl_LIBRARY
 OPENGL_gl_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENGL_glu_LIBRARY

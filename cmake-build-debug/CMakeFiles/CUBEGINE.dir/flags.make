@@ -4,7 +4,7 @@
 # compile CXX with C:/MinGW/bin/g++.exe
 CXX_FLAGS = -g   -std=gnu++1y
 
-CXX_DEFINES = 
+CXX_DEFINES = -DGLEW_STATIC
 
 CXX_INCLUDES = @CMakeFiles/CUBEGINE.dir/includes_CXX.rsp
 
