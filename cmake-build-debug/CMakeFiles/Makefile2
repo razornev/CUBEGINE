@@ -75,8 +75,8 @@ preinstall: dependencies/glew/build/cmake/preinstall
 # Target rules for target CMakeFiles/CUBEGINE.dir
 
 # All Build rule for target.
-CMakeFiles/CUBEGINE.dir/all: dependencies/glew/build/cmake/CMakeFiles/glew_s.dir/all
 CMakeFiles/CUBEGINE.dir/all: dependencies/glfw/src/CMakeFiles/glfw.dir/all
+CMakeFiles/CUBEGINE.dir/all: dependencies/glew/build/cmake/CMakeFiles/glew_s.dir/all
 	$(MAKE) -f CMakeFiles\CUBEGINE.dir\build.make CMakeFiles/CUBEGINE.dir/depend
 	$(MAKE) -f CMakeFiles\CUBEGINE.dir\build.make CMakeFiles/CUBEGINE.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\nbenc\CLionProjects\CUBEGINE\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target CUBEGINE"

@@ -1,9 +1,5 @@
 "C:\Program Files\JetBrains\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\nbenc\CLionProjects\CUBEGINE
-CMake Error at CMakeLists.txt:6 (find_library):
-  find_library called with incorrect number of arguments
-
-
 -- Using Win32 for window creation
--- Configuring incomplete, errors occurred!
-See also "C:/Users/nbenc/CLionProjects/CUBEGINE/cmake-build-debug/CMakeFiles/CMakeOutput.log".
-See also "C:/Users/nbenc/CLionProjects/CUBEGINE/cmake-build-debug/CMakeFiles/CMakeError.log".
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/nbenc/CLionProjects/CUBEGINE/cmake-build-debug
