@@ -2,6 +2,9 @@
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
 #include <string>
+#include <vector>
+#include <fstream>
+#include <sstream>
 
 unsigned int compileShader(unsigned int type, std::string src){
     unsigned int shaderID = glCreateShader(type);
@@ -9,6 +12,8 @@ unsigned int compileShader(unsigned int type, std::string src){
     glShaderSource(shaderID, 1, &srcInChars, nullptr);
     glCompileShader(shaderID);
 
+    //this segment of code should be refactored into another function
+    //also, this harms the principle of OCP
     int result;
     glGetShaderiv(shaderID, GL_COMPILE_STATUS, &result);
     if(result ==GL_FALSE){
@@ -40,30 +45,33 @@ static int createProgram(std::string& vertexSrc, std::string& fragmentSrc){
     return program;
 };
 
-static std::string vertexSrc =
-        "#version 460\n"
-        "precision highp float;\n"
-        "\n"
-        "layout(location = 0) in vec4 position;\n"
-        "void main()\n"
-        "{\n"
-        "gl_Position = position;\n"
-        "}\n";
+std::string readFile(std::string path){
+    std::ifstream stream(path);
+    std::stringbuf buffer;
+}
 
-static std::string fragmentSrc =
-        "#version 460\n"
-        "precision highp float;\n"
-        "\n"
-        "out vec4 color;\n"
-        "void main()\n"
-        "{\n"
-        "color = vec4(0.0, 0.0, 1.0, 1.0);\n"
-        "}\n";
+//function does not obey the principle of OCP -- should be refactored later
+//function also implements multiple levels of abstraction
+static std::vector<std::string> readShaders(std::string& shaderName){
+    std::string vertexPath = "shaders/"+shaderName+"/"+shaderName+".vert";
+    std::string fragmentPath = "shaders/"+shaderName+"/"+shaderName+".frag";
 
-int main(void)
+    std::ifstream vertexStream(vertexPath);
+    std::ifstream fragmentStream(fragmentPath);
+
+    std::vector<std::string> shaders;
+    shaders.reserve(2);
+
+    shaders.emplace_back( std::string{(std::istreambuf_iterator<char>(vertexStream)), std::istreambuf_iterator<char>()} );
+    shaders.emplace_back( std::string{(std::istreambuf_iterator<char>(fragmentStream)), std::istreambuf_iterator<char>()} );
+    return shaders;
+}
+
+int main(int argc, char * argv[])
 {
     GLFWwindow* window;
-
+    std::string shaderName = "cubeShader";
+    std::vector<std::string> shaders = readShaders(shaderName);
 
     /* Initialize the library */
     if (!glfwInit()) {
@@ -86,7 +94,7 @@ int main(void)
 
     std::cout << glGetString(GL_VERSION) << std::endl;
 
-    unsigned int program = createProgram(vertexSrc, fragmentSrc);
+    unsigned int program = createProgram(shaders[0], shaders[1]);
     glUseProgram(program);
 
     float positions[] = {

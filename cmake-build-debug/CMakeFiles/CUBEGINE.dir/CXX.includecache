@@ -73,4 +73,12 @@ GL/glew.h
 -
 GLFW/glfw3.h
 -
+string
+-
+vector
+-
+fstream
+-
+sstream
+-
 
