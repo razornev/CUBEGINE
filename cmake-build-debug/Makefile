@@ -246,6 +246,60 @@ visualinfo/fast:
 	$(MAKE) -f dependencies\glew\build\cmake\CMakeFiles\visualinfo.dir\build.make dependencies/glew/build/cmake/CMakeFiles/visualinfo.dir/build
 .PHONY : visualinfo/fast
 
+Source/Texture.obj: Source/Texture.cpp.obj
+
+.PHONY : Source/Texture.obj
+
+# target to build an object file
+Source/Texture.cpp.obj:
+	$(MAKE) -f CMakeFiles\CUBEGINE.dir\build.make CMakeFiles/CUBEGINE.dir/Source/Texture.cpp.obj
+.PHONY : Source/Texture.cpp.obj
+
+Source/Texture.i: Source/Texture.cpp.i
+
+.PHONY : Source/Texture.i
+
+# target to preprocess a source file
+Source/Texture.cpp.i:
+	$(MAKE) -f CMakeFiles\CUBEGINE.dir\build.make CMakeFiles/CUBEGINE.dir/Source/Texture.cpp.i
+.PHONY : Source/Texture.cpp.i
+
+Source/Texture.s: Source/Texture.cpp.s
+
+.PHONY : Source/Texture.s
+
+# target to generate assembly for a file
+Source/Texture.cpp.s:
+	$(MAKE) -f CMakeFiles\CUBEGINE.dir\build.make CMakeFiles/CUBEGINE.dir/Source/Texture.cpp.s
+.PHONY : Source/Texture.cpp.s
+
+Source/stb_image.obj: Source/stb_image.cpp.obj
+
+.PHONY : Source/stb_image.obj
+
+# target to build an object file
+Source/stb_image.cpp.obj:
+	$(MAKE) -f CMakeFiles\CUBEGINE.dir\build.make CMakeFiles/CUBEGINE.dir/Source/stb_image.cpp.obj
+.PHONY : Source/stb_image.cpp.obj
+
+Source/stb_image.i: Source/stb_image.cpp.i
+
+.PHONY : Source/stb_image.i
+
+# target to preprocess a source file
+Source/stb_image.cpp.i:
+	$(MAKE) -f CMakeFiles\CUBEGINE.dir\build.make CMakeFiles/CUBEGINE.dir/Source/stb_image.cpp.i
+.PHONY : Source/stb_image.cpp.i
+
+Source/stb_image.s: Source/stb_image.cpp.s
+
+.PHONY : Source/stb_image.s
+
+# target to generate assembly for a file
+Source/stb_image.cpp.s:
+	$(MAKE) -f CMakeFiles\CUBEGINE.dir\build.make CMakeFiles/CUBEGINE.dir/Source/stb_image.cpp.s
+.PHONY : Source/stb_image.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -292,6 +346,12 @@ help:
 	@echo ... glew
 	@echo ... glew_s
 	@echo ... visualinfo
+	@echo ... Source/Texture.obj
+	@echo ... Source/Texture.i
+	@echo ... Source/Texture.s
+	@echo ... Source/stb_image.obj
+	@echo ... Source/stb_image.i
+	@echo ... Source/stb_image.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

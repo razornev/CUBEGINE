@@ -79,12 +79,12 @@ CMakeFiles/CUBEGINE.dir/all: dependencies/glfw/src/CMakeFiles/glfw.dir/all
 CMakeFiles/CUBEGINE.dir/all: dependencies/glew/build/cmake/CMakeFiles/glew_s.dir/all
 	$(MAKE) -f CMakeFiles\CUBEGINE.dir\build.make CMakeFiles/CUBEGINE.dir/depend
 	$(MAKE) -f CMakeFiles\CUBEGINE.dir\build.make CMakeFiles/CUBEGINE.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\nbenc\CLionProjects\CUBEGINE\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target CUBEGINE"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\nbenc\CLionProjects\CUBEGINE\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4 "Built target CUBEGINE"
 .PHONY : CMakeFiles/CUBEGINE.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CUBEGINE.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\nbenc\CLionProjects\CUBEGINE\cmake-build-debug\CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\nbenc\CLionProjects\CUBEGINE\cmake-build-debug\CMakeFiles 23
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/CUBEGINE.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\nbenc\CLionProjects\CUBEGINE\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/CUBEGINE.dir/rule
@@ -170,7 +170,7 @@ dependencies/glfw/src/preinstall:
 dependencies/glfw/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) -f dependencies\glfw\src\CMakeFiles\glfw.dir\build.make dependencies/glfw/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) -f dependencies\glfw\src\CMakeFiles\glfw.dir\build.make dependencies/glfw/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\nbenc\CLionProjects\CUBEGINE\cmake-build-debug\CMakeFiles --progress-num=12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\nbenc\CLionProjects\CUBEGINE\cmake-build-debug\CMakeFiles --progress-num=14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29 "Built target glfw"
 .PHONY : dependencies/glfw/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
@@ -221,7 +221,7 @@ dependencies/glew/build/cmake/preinstall:
 dependencies/glew/build/cmake/CMakeFiles/glewinfo.dir/all: dependencies/glew/build/cmake/CMakeFiles/glew.dir/all
 	$(MAKE) -f dependencies\glew\build\cmake\CMakeFiles\glewinfo.dir\build.make dependencies/glew/build/cmake/CMakeFiles/glewinfo.dir/depend
 	$(MAKE) -f dependencies\glew\build\cmake\CMakeFiles\glewinfo.dir\build.make dependencies/glew/build/cmake/CMakeFiles/glewinfo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\nbenc\CLionProjects\CUBEGINE\cmake-build-debug\CMakeFiles --progress-num=9,10,11 "Built target glewinfo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\nbenc\CLionProjects\CUBEGINE\cmake-build-debug\CMakeFiles --progress-num=11,12,13 "Built target glewinfo"
 .PHONY : dependencies/glew/build/cmake/CMakeFiles/glewinfo.dir/all
 
 # Build rule for subdir invocation for target.
@@ -248,7 +248,7 @@ dependencies/glew/build/cmake/CMakeFiles/glewinfo.dir/clean:
 dependencies/glew/build/cmake/CMakeFiles/glew.dir/all:
 	$(MAKE) -f dependencies\glew\build\cmake\CMakeFiles\glew.dir\build.make dependencies/glew/build/cmake/CMakeFiles/glew.dir/depend
 	$(MAKE) -f dependencies\glew\build\cmake\CMakeFiles\glew.dir\build.make dependencies/glew/build/cmake/CMakeFiles/glew.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\nbenc\CLionProjects\CUBEGINE\cmake-build-debug\CMakeFiles --progress-num=3,4,5 "Built target glew"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\nbenc\CLionProjects\CUBEGINE\cmake-build-debug\CMakeFiles --progress-num=5,6,7 "Built target glew"
 .PHONY : dependencies/glew/build/cmake/CMakeFiles/glew.dir/all
 
 # Build rule for subdir invocation for target.
@@ -275,7 +275,7 @@ dependencies/glew/build/cmake/CMakeFiles/glew.dir/clean:
 dependencies/glew/build/cmake/CMakeFiles/glew_s.dir/all:
 	$(MAKE) -f dependencies\glew\build\cmake\CMakeFiles\glew_s.dir\build.make dependencies/glew/build/cmake/CMakeFiles/glew_s.dir/depend
 	$(MAKE) -f dependencies\glew\build\cmake\CMakeFiles\glew_s.dir\build.make dependencies/glew/build/cmake/CMakeFiles/glew_s.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\nbenc\CLionProjects\CUBEGINE\cmake-build-debug\CMakeFiles --progress-num=6,7,8 "Built target glew_s"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\nbenc\CLionProjects\CUBEGINE\cmake-build-debug\CMakeFiles --progress-num=8,9,10 "Built target glew_s"
 .PHONY : dependencies/glew/build/cmake/CMakeFiles/glew_s.dir/all
 
 # Build rule for subdir invocation for target.
@@ -302,7 +302,7 @@ dependencies/glew/build/cmake/CMakeFiles/glew_s.dir/clean:
 dependencies/glew/build/cmake/CMakeFiles/visualinfo.dir/all: dependencies/glew/build/cmake/CMakeFiles/glew.dir/all
 	$(MAKE) -f dependencies\glew\build\cmake\CMakeFiles\visualinfo.dir\build.make dependencies/glew/build/cmake/CMakeFiles/visualinfo.dir/depend
 	$(MAKE) -f dependencies\glew\build\cmake\CMakeFiles\visualinfo.dir\build.make dependencies/glew/build/cmake/CMakeFiles/visualinfo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\nbenc\CLionProjects\CUBEGINE\cmake-build-debug\CMakeFiles --progress-num=28,29,30 "Built target visualinfo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\nbenc\CLionProjects\CUBEGINE\cmake-build-debug\CMakeFiles --progress-num=30,31,32 "Built target visualinfo"
 .PHONY : dependencies/glew/build/cmake/CMakeFiles/visualinfo.dir/all
 
 # Build rule for subdir invocation for target.

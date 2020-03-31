@@ -400,6 +400,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/nbenc/CLionProjects/CUBEGINE/Headers/Texture.h">
+			<Option target="CUBEGINE"/>
+		</Unit>
+		<Unit filename="C:/Users/nbenc/CLionProjects/CUBEGINE/Headers/stb_image.h">
+			<Option target="CUBEGINE"/>
+		</Unit>
+		<Unit filename="C:/Users/nbenc/CLionProjects/CUBEGINE/Source/Texture.cpp">
+			<Option target="CUBEGINE"/>
+		</Unit>
+		<Unit filename="C:/Users/nbenc/CLionProjects/CUBEGINE/Source/stb_image.cpp">
+			<Option target="CUBEGINE"/>
+		</Unit>
 		<Unit filename="C:/Users/nbenc/CLionProjects/CUBEGINE/cmake-build-debug/dependencies/glfw/src/glfw_config.h">
 			<Option target="glfw"/>
 		</Unit>

@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/nbenc/CLionProjects/CUBEGINE/Source/Texture.cpp" "C:/Users/nbenc/CLionProjects/CUBEGINE/cmake-build-debug/CMakeFiles/CUBEGINE.dir/Source/Texture.cpp.obj"
+  "C:/Users/nbenc/CLionProjects/CUBEGINE/Source/stb_image.cpp" "C:/Users/nbenc/CLionProjects/CUBEGINE/cmake-build-debug/CMakeFiles/CUBEGINE.dir/Source/stb_image.cpp.obj"
   "C:/Users/nbenc/CLionProjects/CUBEGINE/main.cpp" "C:/Users/nbenc/CLionProjects/CUBEGINE/cmake-build-debug/CMakeFiles/CUBEGINE.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
