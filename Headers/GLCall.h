@@ -3,7 +3,7 @@
 
 #include <GL/glew.h>
 
-#define ASSERT(x) if (!(x)) __builtin_trap();
+#define ASSERT(x) if (!(x)) __builtin_trap(); //__debugbreak() for Visual Studio
 #define GLCall(x) GLClearError();\
     x;\
     ASSERT(GLLogCall(#x, __FILE__, __LINE__))

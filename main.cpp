@@ -1,5 +1,3 @@
-#pragma clang diagnostic push
-#pragma ide diagnostic ignored "EmptyDeclOrStmt"
 #include <iostream>
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
@@ -26,7 +24,6 @@ int main(int argc, char * argv[]){
     /* Create a windowed mode window and its OpenGL context */
     window = glfwCreateWindow(width, height, "Hello World", NULL, NULL);
 
-
     /* Make the window's context current */
     glfwMakeContextCurrent(window);
 
@@ -52,7 +49,6 @@ int main(int argc, char * argv[]){
                 0, 1, 2,
                 2, 3, 0
         };
-
 
         Shader shader("cubeShader");
         VertexArray va;
@@ -94,7 +90,6 @@ int main(int argc, char * argv[]){
             }
             r += increment;
 
-
             /* Swap front and back buffers */
             glfwSwapBuffers(window);
 
@@ -102,9 +97,7 @@ int main(int argc, char * argv[]){
             glfwPollEvents();
         }
     }
-
     glfwTerminate();
-
     return 0;
 }
 #pragma clang diagnostic pop
