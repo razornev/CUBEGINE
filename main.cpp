@@ -9,8 +9,7 @@
 #include "Headers/Renderer.h"
 #include <stdexcept>
 
-int main(int argc, char * argv[])
-{
+int main(int argc, char * argv[]){
     GLFWwindow* window;
 
     /* Initialize the library */
@@ -34,7 +33,7 @@ int main(int argc, char * argv[])
     glfwSwapInterval(1);
 
     if(glewInit() != GLEW_OK){
-        std::cout << "An error has happened." <<std::endl;
+        std::cout << "An error has happened." < <std::endl;
     } else {
         std::cout <<"No error." << std::endl;
     }
